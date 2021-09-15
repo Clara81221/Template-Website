@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Good Times";
+    src: url("https://orientalramen4608.github.io/Template-Website/gt.ttf")
+}
+
+* {
+    font-family: "Helvetica", Consolas, monospace;
+}
+
+h1 {
+    font-family: "Good Times";
+    font-size: 36pt;
+    font-weight: normal;
+    color: var(--black);
+}
+
+h2 {
+    font-family: "Good Times";
+    font-size: 24pt;
+    font-weight: normal;
+    color: var(--black);
+}
+
+h3 {
+    font-family: "Good Times";
+    font-size: 18pt;
+    font-weight: normal;
+    color: var(--black);
+}
+
+dateinfo {
+    font-size: 10pt;
+    font-weight: normal;
+    color: black;
+}
+
+p {
+    
+}
+
+pre {
+    
+    color: var(--black);
+}
+
+body {
+    background-image: url("../images/bg1.png");
+    margin: 0;
+    padding: 0;
+    background-size: 100vw 100vh;
+    color: black;
+    --dullGreen: rgb(0,160,22);
+    --brightGreen: rgb(0,180,0);
+    --black: rgb(0,0,0);
+    --greenGlow: 0 0 10px var(--brightGreen), 0 0 30px var(--brightGreen), 0 0 40px var(--brightGreen);
+    --greyColour: rgb(200,200,200);
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+.disabled {color:gray;}
+
+a {
+    color: var(black);
+100  
+}
+
+    a:hover {
+       color: var(darkred);
+    }
+
+header {
+    width: 100%;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+    color: darkgray;
+    position:absolute;
+    bottom:0;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+div.sitebody {
+    margin: auto;
+    border: 1px solid black;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+}
+
+.box {
+  border: 1px solid green ;
+}
+
+#linkos {
+    display: flex;
+    justify-content: left;
+}
+
+    #linkos > * {
+        padding: 0px 10px;
+    }
+
+#titlelink {
+    font-size: 36pt;
+    text-decoration: none;
+    color: var(--black);
+    
+}
+
+    #titlelink:hover {
+        color: var(--greyColour);
+    }
+#warning {
+    font-size: 15pt;
+    font-weight: normal;
+    color: var(--black));
+}
